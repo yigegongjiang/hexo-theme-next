@@ -734,7 +734,7 @@ gitalk:
 # Utterances
 # For more information: https://utteranc.es
 utterances:
-  enable: true
+  enable: false
   repo: yigegongjiang/yigegongjiang_discuss # Github repository owner and name
   # Available values: pathname | url | title | og:title
   issue_term: title
