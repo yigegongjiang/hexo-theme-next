@@ -676,10 +676,10 @@ comments:
   # Modify texts or order for any naves, here are some examples.
   nav:
     gitalk:
-     text: Current boards are better for light mode to discuss. Dark mode click here -->
+     text: Light Mode (Better for light mode to discuss, base github, cannot commen can email me)
      order: -2
     utterances:
-     text: Dark mode
+     text: Dark Mode
      order: -1
 
 # Disqus
@@ -734,7 +734,7 @@ gitalk:
 # Utterances
 # For more information: https://utteranc.es
 utterances:
-  enable: false
+  enable: true
   repo: yigegongjiang/yigegongjiang_discuss # Github repository owner and name
   # Available values: pathname | url | title | og:title
   issue_term: title
