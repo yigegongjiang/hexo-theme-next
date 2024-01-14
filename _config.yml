@@ -278,9 +278,10 @@ reward:
 # Subscribe through Telegram Channel, Twitter, etc.
 # Usage: `Key: permalink || icon` (Font Awesome)
 follow_me:
-  #Twitter: https://twitter.com/username || fab fa-twitter
-  #Telegram: https://t.me/channel_name || fab fa-telegram
-  #WeChat: /images/wechat_channel.png || fab fa-weixin
+  Twitter: https://twitter.com/one_gongjiang || fab fa-twitter
+  Telegram: https://t.me/gongjiang || fab fa-telegram
+  # WeChat: /images/wechat_channel.jpg || fab fa-weixin
+  Email: mailto:one.gongjiang@126.com || fa fa-envelope
   RSS: /atom.xml || fa fa-rss
 
 # Related popular posts
@@ -836,7 +837,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # For more information: http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: fa fa-user
   total_views: true
