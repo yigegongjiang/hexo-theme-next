@@ -102,7 +102,7 @@ menu:
   archives: /archives/ || archive
   OpenSource: /openSource || rss
   about: /about/ || user
-  RSS: /rss2.xml || rss
+  RSS: /atom.xml || rss
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
@@ -205,7 +205,7 @@ language_switcher: true
 
 footer:
   # Specify the year when the site was setup. If not defined, current year will be used.
-  #since: 2021
+  since: 2018
 
   # Icon between year and copyright info.
   icon:
@@ -281,7 +281,7 @@ reward:
 # Usage: `Key: permalink || icon` (Font Awesome)
 follow_me:
   Twitter: https://twitter.com/hai_lv_ || fab fa-twitter
-  Telegram: https://t.me/gongjiang || fab fa-telegram
+  Telegram: https://t.me/hai_lv_tg || fab fa-telegram
   # WeChat: /images/wechat_channel.jpg || fab fa-weixin
   Email: mailto:one.gongjiang@gmail.com || fa fa-envelope
   RSS: /atom.xml || fa fa-rss
@@ -477,7 +477,7 @@ index_with_subtitle: false
 # Automatically add external URL with Base64 encrypt & decrypt.
 exturl: true
 # If true, an icon will be attached to each external URL
-exturl_icon: true
+exturl_icon: false
 
 # Google Webmaster tools verification.
 # See: https://developers.google.com/search
@@ -584,7 +584,7 @@ pjax: true
 
 # FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.
 # For more information: https://fancyapps.com/fancybox/
-fancybox: true
+fancybox: false
 
 # Medium Zoom is a JavaScript library for zooming images like Medium.
 # Warning: Do not enable both `fancybox` and `mediumzoom`.
@@ -769,7 +769,7 @@ addtoany:
 # Google Analytics
 # See: https://analytics.google.com
 google_analytics:
-  tracking_id: # <app_id>
+  tracking_id: G-8CTEWJ02QX
   # By default, NexT will load an external gtag.js script on your site.
   # If you only need the pageview feature, set the following option to true to get a better performance.
   only_pageview: false
