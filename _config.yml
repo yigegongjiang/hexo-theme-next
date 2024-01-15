@@ -100,15 +100,16 @@ menu:
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
+  OpenSource: /openSource || rss
   about: /about/ || user
-  Rss: /rss2.xml || rss
+  RSS: /rss2.xml || rss
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
-  icons: true
+  icons: false
   badges: true
 
 
