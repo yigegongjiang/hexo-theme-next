@@ -100,8 +100,9 @@ menu:
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
-  Source: /openSource || rss
+  日本指北: /japan/ || rss
   时间舟: /categories/时间舟/ || rss
+  Source: /openSource || rss
   about: /about/ || user
   RSS: /atom.xml || rss
   #schedule: /schedule/ || fa fa-calendar
